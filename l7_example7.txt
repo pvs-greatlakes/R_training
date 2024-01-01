@@ -1,0 +1,5 @@
+
+ Regression line is Y1 =  102.7439 + ( 1.254015 * X1 ) + ( 1.064291 * X2 ) + ( -0.3713815 * X3 ) + ( 0.233896 * X4 )
+
+
+ The model explains  94.85367 %  of the variability of the response data around its mean 

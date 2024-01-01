@@ -1,0 +1,29 @@
+
+Example of solving ANOVA One- Way table   
+
+The mean life time of batteries is  5.18  hours
+
+
+In this example, let us frame hypotheses as:
+
+1. H0 (Null): The three types of battery have the same mean life time, estimated by: 5.18  hours.
+2. H1 (Alternate): The three types of battery have the different mean life time, estimated by: 5.18  hours. 
+
+Let us use P value to test the null hypothesis that data from all groups are drawn from populations with identical means. 
+
+If the overall P value is large, the data do not give you any reason to conclude that the means differ.
+
+<----------------  ANOVA TABLE ------------>
+            Df Sum Sq Mean Sq F value Pr(>F)
+type         2 0.1692 0.08458    1.39  0.298
+Residuals    9 0.5475 0.06083               
+<------------------------------------------>
+  
+From ANOVA test we had performed on the data, we observe that at 95% confidence levelthe probability of selecting a battery type with
+Mean life time not same as the standard mean life is: 30.000000%
+
+
+ Since the p-value is  greater than the significance level of 0.05, we accept the null hypothesis, H0 (Null)
+
+
+*** Conclusion: The three types of battery have the same mean life time, estimated by  5.18  hours. ***

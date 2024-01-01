@@ -1,0 +1,7 @@
+x <-  c(15,20,21,18,16,22,14,17,20,17)
+y <-  c(2,3,4,3,2,5,2,3,4,2)
+reg1= lm( y ~ x)
+summary(reg1)
+print(summary(reg1))
+plot(x,y,xlab = "Height of weight in cms",ylab="Weight of seed in Kgms")
+abline(reg1,col="red",lwd=3)
